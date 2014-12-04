@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+	<Extension path="/MonoDevelop/Core/Applications">
+		<Application id="systeminfo" class="Olo.BuildTools.SystemInfo" description="Gather info on tool and add-in versions"/>
+	</Extension>
+</ExtensionModel>
