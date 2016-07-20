@@ -16,5 +16,6 @@ Global
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Olo.BuildTools\Olo.BuildTools.csproj
+		version = 0.2
 	EndGlobalSection
 EndGlobal
