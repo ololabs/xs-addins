@@ -2,5 +2,5 @@
 
 [assembly:AssemblyTitle ("Olo.BuildTools")]
 [assembly:AssemblyCompany ("Olo")]
-[assembly:AssemblyCopyright ("2014 Olo")]
-[assembly:AssemblyVersion ("1.1")]
+[assembly:AssemblyCopyright ("2016 Olo")]
+[assembly:AssemblyVersion ("2.0")]

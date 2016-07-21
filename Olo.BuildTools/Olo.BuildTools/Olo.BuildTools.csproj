@@ -51,7 +51,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <AddinReference Include="MonoDevelop.AddinMaker" />
     <AddinReference Include="MonoDevelop.Xamarin.Ide" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
