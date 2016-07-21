@@ -1,13 +1,14 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
 using MonoDevelop.Core;
 
 namespace Olo.BuildTools
 {
 	class SystemInfo : IApplication
 	{
-		public int Run(string[] arguments)
+		public Task<int> Run(string[] arguments)
 		{
 			var systemInformationSummary = SystemInformation.GetTextDescription();
 
@@ -24,7 +25,7 @@ namespace Olo.BuildTools
 					File.WriteAllText(argument.Substring(3), systemInformationSummary);
 			}
 
-			return 0;
+            return Task.FromResult(0);
 		}
 
 		private void printHelp()
@@ -40,5 +41,5 @@ namespace Olo.BuildTools
 			Console.WriteLine("  -f:file-path      Output system information into the specifed file");
 			Console.WriteLine();
 		}
-	}
+    }
 }
