@@ -3,7 +3,7 @@
 [assembly:Addin(
 	"Other", 
 	Namespace = "Olo.BuildTools",
-	Version = "2.0", 
+	Version = "3.0", 
 	Url = "http://github.com/ololabs/xs-addins"
 )]
 
